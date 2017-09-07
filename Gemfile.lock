@@ -269,6 +269,11 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-doc (0.11.1)
+      pry (~> 0.9)
+      yard (~> 0.9)
+    pry-rails (0.3.6)
+      pry (>= 0.10.4)
     puma (3.9.1)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -357,6 +362,7 @@ GEM
     websocket-extensions (0.1.2)
     will_paginate (3.1.5)
     xml-simple (1.1.5)
+    yard (0.9.9)
 
 PLATFORMS
   ruby
@@ -378,6 +384,8 @@ DEPENDENCIES
   mini_magick (= 4.7.0)
   minitest-reporters (= 1.1.14)
   pg (= 0.20.0)
+  pry-doc
+  pry-rails
   puma (= 3.9.1)
   rails (= 5.1.2)
   rails-controller-testing (= 1.0.2)
